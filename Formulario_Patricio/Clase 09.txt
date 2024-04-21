@@ -1,0 +1,62 @@
+					JavaScript
+
+Codigo pequeño, orientado a objetos.
+
+Es un lenguaje interpretado, el navegador es el que interpreta las intrucciones.
+
+JavaScript permite acceder a los objetos del formulario utilizando DOM y asi modificar sus 
+caracteristicas y los valores de sus atributos.
+
+JavaScript es un lenguaje no tipado, es decir, las variables se definen y se les asigna un
+valor, en es emomento adquiere su tipo.
+
+La sintaxis de JavaScript es muy parecida a la sintaxis de C o de Java o de C# o de PHP, pues
+todos los lenguajes derivan de C que es el padre.
+
+Embebido = Dentro de...
+
+.innerHTML = variable (Incerte en HTML la variable asignada).
+
+*	Una forma de reutilizar codigo en JavaScript es crear funciones.
+*	Una funcion es un grupo de instrucciones que realizan un proceso y que  pueden
+	o no retornar un valor asociado al proceso.
+*	Las funciones deben ser invocadas para que se puedan ejecutar.
+*	Una caracteristica de JavaScript es que permite utilzar los eventos de los elementos
+	de la pagina.
+*	Un evento es algo que pasa a un control HTML y que puede ser utilizado por JavaScript
+	para ejectuar una accion.
+*	Por ejemplo al "presionar" un boton(evento) se debe mostrar un mensaje(accion).
+
+
+					AJAX
+
+Es una tecnologia que permite el intercambio de datos en segundo plano para paginas WEB.
+
+Al ser una tecnologia asincrona, permite solicitar y enviar datos a servicios WEB o a 
+arichivos  de datos, de tal forma que mientras se completa la carga o envio de datos, la 
+pagina no se detiene ni pierde interactividad.
+
+Las llamadas utilizando AJAX se suelen programar on JavaScript utilizando un objeto 
+XMLHttpRequest(Forma de estructurar datos).
+
+Mientras se esparan los datos del servidor JavaScript no detiene su ejecucion, sino que
+queda en espera en segundo plano.
+
+Cuando llegan lo datos, JavaScript retoma la accion que esta ejecutando.
+
+Por eso se llama asincrono, y los datos de retorno que pueden ser de cualquier formato, 
+texto plano, JSON, XML, etc.
+
+APY = (Servicio WEB)
+
+
+				Funciones con JavaScript
+
+Un metodo es equivalente a un metodo de Java o C#.
+
+En HTML podemos crear funciones con JavaScript con funcionalidades diversasc como,
+por ejemplo: Validaciones de formularios, juegos, geolocalizaciones, control de la camara
+del PC, etc.
+
+
+
