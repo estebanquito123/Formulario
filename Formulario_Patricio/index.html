@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postulacion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JScript.js"></script>
+</head>
+<body>
+    <fieldset class="container">
+        <legend>Formulario de postulacion</legend>
+        <form>
+            <br>
+            <div align="center">
+                RUT: <input name="rut" id="rut" type="text" placeholder="Ingrese rut">
+            </div>    
+            <br>
+            <div align="center">
+                Nombre: <input name="nombre" id="nombre" type="text" value="" required placeholder="Ingrese su nombre">
+            </div>
+            <br>
+            Apellido Paterno: <input name="appa" id="appa" type="text" value="" required placeholder="Ingrese Apellido Paterno">
+            Apellido Materno: <input name="apma" id="apma" type="text" value="" required placeholder="Ingrese Apellido Materno">
+            <br>    
+            <br>
+            Fecha Nacimiento: <input name="fnac" type="date" value="" required placeholder="Fecha Nacimiento" >
+            <div class="edad">
+                Edad: <input name="edad" id="edad" type="number" required placeholder="Ingrese su edad">
+            </div>
+            <br>
+            <br>
+            <div align="center">
+                <select id="seleccion" name="genero" required>
+                    <optgroup label="Genero">
+                        <option value="1">Masculino</option>
+                        <option value="2">Femenino</option>
+                    </optgroup>
+                    
+                </select>
+            </div>  
+            <br>
+            <br>
+            Email: <input name="email" id="email" type="email" value="" required placeholder="Ingrese su Email">
+            <div class="profesion">
+                Profesion: <input name="profesion" id="profesion" type="text" value="" required placeholder="Ingrese su profesion">
+            </div>
+            <br>
+            <br>
+            <div align="center">
+            Celular: <input name="celular" id="celular" type="number" required placeholder="Ingrese numero celular">
+            </div>
+            <br>
+           <textarea name="motivo" id="motivo" cols="80" rows="10"  placeholder="Motivo de Postulacion"></textarea>
+           <br>
+           <br>
+           <div align="center">
+                <button type="submit" onclick="validarDatos()">Enviar</button>
+                <a href="carta.html" target="_blank"><button type="button" onclick="concatenar()">Ver carta</button></a>
+           </div>
+           <br>
+        </form>
+    </fieldset>
+</body>
+</html>
