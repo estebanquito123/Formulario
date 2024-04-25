@@ -11,16 +11,16 @@
     <h1>Formulario de Postulación para Trabajo de Apoyo Ambiental en Chiloé</h1>
     <form id="applicationForm">
         <label for="rut">RUT:</label>
-        <input type="text" id="rut" name="rut" required minlength="9" maxlength="10">
+        <input type="text" id="rut" name="rut" required>
 
         <label for="apellidoPaterno">Apellido Paterno:</label>
-        <input type="text" id="apellidoPaterno" name="apellidoPaterno" required minlength="3" maxlength="20">
+        <input type="text" id="apellidoPaterno" name="apellidoPaterno" required>
 
         <label for="apellidoMaterno">Apellido Materno:</label>
-        <input type="text" id="apellidoMaterno" name="apellidoMaterno" required minlength="3" maxlength="20">
+        <input type="text" id="apellidoMaterno" name="apellidoMaterno" required>
 
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="20">
+        <input type="text" id="nombre" name="nombre" required>
 
         <label for="fechaNacimiento">Fecha de Nacimiento:</label>
         <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
@@ -33,14 +33,14 @@
             <option value="">Seleccionar Género</option>
             <option value="masculino">Masculino</option>
             <option value="femenino">Femenino</option>
-            <option value="otro">Otro</option>
+    
         </select>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
         <label for="celular">Celular:</label>
-        <input type="tel" id="celular" name="celular" required minlength="9" maxlength="12">
+        <input type="tel" id="celular" name="celular" required>
 
         <label for="profesion">Profesión:</label>
         <input type="text" id="profesion" name="profesion" required>
@@ -48,7 +48,7 @@
         <label for="motivacion">Motivación para Postular:</label>
         <textarea id="motivacion" name="motivacion" required></textarea>
 
-        <button type="submit">Enviar</button>
+        <button type="submit" onclick="validarDatos()">Enviar</button>
         <button type="button" onclick="generarCarta()">Crear Carta</button>
     </form>
 
