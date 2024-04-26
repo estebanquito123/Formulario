@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Postulación</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Formulario de Postulación</h2>
+    <form id="formulario">
+      <div class="form-group">
+        <label for="rut">RUT:</label>
+        <input type="text" id="rut" name="rut" required>
+        <span class="error-msg" id="rut-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <span class="error-msg" id="nombre-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="apellido-paterno">Apellido Paterno:</label>
+        <input type="text" id="apellido-paterno" name="apellido-paterno" required>
+        <span class="error-msg" id="apellido-paterno-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="apellido-materno">Apellido Materno:</label>
+        <input type="text" id="apellido-materno" name="apellido-materno" required>
+        <span class="error-msg" id="apellido-materno-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+        <span class="error-msg" id="fecha-nacimiento-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="18" max="35" required>
+        <span class="error-msg" id="edad-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" required>
+          <option value="">Seleccionar</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+        </select>
+        <span class="error-msg" id="genero-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error-msg" id="email-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" required>
+        <span class="error-msg" id="celular-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="profesion">Profesión:</label>
+        <input type="text" id="profesion" name="profesion" required>
+        <span class="error-msg" id="profesion-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="motivacion">Motivación para postular:</label>
+        <textarea id="motivacion" name="motivacion" required></textarea>
+        <span class="error-msg" id="motivacion-error"></span>
+      </div>
+      <button type="submit">Enviar</button>
+      <button type="button" id="crearCarta">Crear Carta</button>
+    </form>
+    <textarea id="carta" rows="10" cols="50" readonly></textarea>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="JavaScript/script.js"></script>
+</body>
+</html>
