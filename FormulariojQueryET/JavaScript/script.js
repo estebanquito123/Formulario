@@ -118,9 +118,9 @@ $(document).ready(function() {
     const motivacion = $('#motivacion').val();
   
     // Construir el contenido de la carta
-    let carta = `Estimado/a equipo de reclutamiento,
+    let carta = `Estimado/a equipo de la fundacion Chile Limpio,
   
-    Me llamo ${nombre} ${apellidoPaterno} ${apellidoMaterno}, portador/a del RUT ${rut}, y nací el ${fechaNacimiento}. Tengo ${edad} años de edad y me identifico como ${genero}.
+    Me llamo ${nombre} ${apellidoPaterno} ${apellidoMaterno}, mi RUT es ${rut}, y nací el ${fechaNacimiento}. Tengo ${edad} años de edad y mi genero es ${genero}.
   
     Pueden contactarme a través de mi correo electrónico ${email} o mi número de celular ${celular}.
   
